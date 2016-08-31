@@ -29,20 +29,24 @@
 
         <!-- PRODUCTS LIST -->
         <ul class='list-group'>
+
             <li class='list-group-item flex-container' ng-repeat="product in store.products | orderBy:'price' | filter:search " ng-hide='product.soldOut'>
                 <div id='image-div' class='flex-item'>
                     <img id='product-image' class='flex-item' ng-src='{{product.images[0]}}' />
                     <caption>caption here</caption>
                 </div>
+
                 <!-- TEXT -->
                 <div class="flex-item">
                     <h3 class='pull-left'>{{product.name}}</h3>
                     <button id='add-to-cart-btn' class='pull-right btn' ng-show='product.canPurchase'>Add to Cart</button>
                     <p id='product-price'>{{product.price | currency}}</p>
+
                     <!-- PANEL/TAB NAVIGATION -->
                     <product-panels></product-panels>
                 </div>
             </li>
+            
         </ul>
 
     </div>
