@@ -1,0 +1,8 @@
+YELP API
+Consumer Key	YBYCc31N2RQHbtrZSI4mjg
+Consumer Secret	qRNMZVhBkcI6NaFPxUREQnb721c
+Token	COdqSKixml6mawcdxXjSDWnU0POPX_XY
+Token Secret	npig7fdeyzryyYEL-nmMxhk9dho
+
+smaple query (w/out oauth)
+https://api.yelp.com/v2/search/?term=wifi&location=60605&limit=20&radius_filter=10000
