@@ -1,0 +1,123 @@
+[
+{
+    "name": "Azurite",
+    "price": 4.95,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "canPurchase": true,
+    "soldOut": false,
+    "shine": 8,
+    "faces": 14,
+    "rarity": 7,
+    "color": "#CCC",
+    "images": [
+        "http://3.bp.blogspot.com/-TjsI3FGhbSg/Vf8Z4WTc_bI/AAAAAAAAVMU/GJExAc-VqwM/s1600/baby-animal-wallpapers-baby-animal-pictures-cool-wallpapers.jpg"
+    ],
+    "reviews": [
+        {
+            "stars": 5,
+            "body": "I love this product so much.",
+            "author": "adam@adam.com"
+        },{
+            "stars": 5,
+            "body": "I love this product so much.",
+            "author": "adam@adam.com"
+        }
+    ]
+}, {
+    "name": "Beach Rock",
+    "price": 1.95,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "canPurchase": true,
+    "soldOut": false,
+    "shine": 8,
+    "faces": 14,
+    "rarity": 7,
+    "color": "#CCC",
+    "images": [
+        "http://img.designswan.com/2013/06/baby/2.jpg"
+    ],
+    "reviews": [
+        {
+            "stars": 5,
+            "body": "I love this product so much.",
+            "author": "adam@adam.com"
+        },{
+            "stars": 5,
+            "body": "I love this product so much.",
+            "author": "adam@adam.com"
+        }
+    ]
+}, {
+    "name": "Diamond",
+    "price": 99.95,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "canPurchase": true,
+    "soldOut": false,
+    "shine": 8,
+    "faces": 14,
+    "rarity": 7,
+    "color": "#CCC",
+    "images": [
+        "images/gem-image.jpeg"
+    ],
+    "reviews": [
+        {
+            "stars": 5,
+            "body": "I love this product so much.",
+            "author": "adam@adam.com"
+        },{
+            "stars": 5,
+            "body": "I love this product so much.",
+            "author": "adam@adam.com"
+        }
+    ]
+}, {
+    "name": "Ruby",
+    "price": 9.95,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "canPurchase": true,
+    "soldOut": false,
+    "shine": 8,
+    "faces": 14,
+    "rarity": 7,
+    "color": "#CCC",
+    "images": [
+        "images/gem-image.jpeg"
+    ],
+    "reviews": [
+        {
+            "stars": 5,
+            "body": "I love this product so much.",
+            "author": "adam@adam.com"
+        },{
+            "stars": 5,
+            "body": "I love this product so much.",
+            "author": "adam@adam.com"
+        }
+    ]
+}, {
+    "name": "Meteorite",
+    "price": 1.95,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "canPurchase": true,
+    "soldOut": false,
+    "shine": 8,
+    "faces": 14,
+    "rarity": 7,
+    "color": "#CCC",
+    "images": [
+        "images/gem-image.jpeg"
+    ],
+    "reviews": [
+        {
+            "stars": 5,
+            "body": "I love this product so much.",
+            "author": "adam@adam.com"
+        },{
+            "stars": 5,
+            "body": "I love this product so much.",
+            "author": "adam@adam.com"
+        }
+    ]
+}
+]
