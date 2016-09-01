@@ -1,10 +1,10 @@
 // put all in closure
-// (function(){})() is an IIFE: immediately invoked function expression used so it's only called 1x, code block executes immediately, and doesn't effect global scope. 
+// (function(){})() is an IIFE: immediately invoked function expression used so it's only called 1x, code block executes immediately, and doesn't effect global scope.
 (function(){
 
     //module. store-products dependency is another module
     // need empty array in definition even if no dependencies yet!
-    var app = angular.module('gemStore', []);
+    var app = angular.module('gemStore', ['store-products']);
 
     // store is the controller and we will add properties to it
     // and we will put our data in the products property
@@ -15,7 +15,6 @@
             console.log(data);
             store.products = data;
         });
-
     }]);
 
     //

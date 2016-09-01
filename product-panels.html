@@ -1,0 +1,19 @@
+<section>
+
+    <ul class='nav nav-pills clear-both'>
+        <!-- ng-class key value pair in object: key is class and value is to be evalueted as boolean to determine if class is used -->
+        <li ng-class='{active:panel.isSet(1)}'>
+            <a class='tabs' href="#" ng-click='panel.setTab(1)'>Description</a>
+        </li>
+        <li ng-class='{active:panel.isSet(2)}'>
+            <a class='tabs' href="#" ng-click='panel.setTab(2)'>Specs</a>
+        </li>
+        <li ng-class='{active:panel.isSet(3)}'>
+            <a class='tabs' href="#" ng-click='panel.setTab(3)'>Reviews</a>
+        </li>
+    </ul>
+
+    
+
+
+</section>
